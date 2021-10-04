@@ -8,7 +8,6 @@
 .container{
     width: 1500px;
     margin: 0 auto;
-    
 }
 
 .container.debug{
@@ -34,10 +33,6 @@
     clear: both
 }
 
-.box:hover {
-    background-color: blue;
-}
-
 .origin{
     width: 100%;
     height: 800px;
@@ -61,9 +56,72 @@
 }
 
 .info{
-
+    position: absolute;
+    margin-left:5px;
+    
 }
 
 .marca{
+    font-size: 14px;
+}
+
+h3{
+    text-transform: uppercase;
     
+}
+
+.prezzo{
+    color: red;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.sconto{
+    text-decoration: line-through black;
+    color: black;
+}
+
+.heart{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    top: 15px;
+    right: 0;
+    
+}
+
+.cuore{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.sale{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    line-height: 25px;
+    bottom: 120px;
+
+}
+
+.sos{
+    position: absolute;
+    width: 90px;
+    height: 25px;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    line-height: 25px;
+    bottom: 120px;
+    left: 55px;
+    font-size: 13px;
+    text-align: center;
 }
